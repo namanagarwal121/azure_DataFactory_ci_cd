@@ -1,0 +1,18 @@
+{
+	"name": "DFProdfnaman",
+	"properties": {
+		"globalConfigurations": {
+			"PipelineBillingEnabled": "true"
+		},
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d1e6ba15-1f1d-4619-a15e-432e139db773",
+		"tenantId": "95541e7c-5c00-4ba3-8a79-9b540fef496c"
+	}
+}

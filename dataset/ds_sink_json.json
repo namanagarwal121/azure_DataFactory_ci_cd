@@ -1,0 +1,21 @@
+{
+	"name": "ds_sink_json",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_storage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "pokemon.json",
+				"folderPath": "API",
+				"fileSystem": "sink"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
